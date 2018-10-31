@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=720, initial-scale=0.5, maximum-scale=1.0, user-scalable=yes">
+
+  <title>Игра</title>
+
+	<link rel="stylesheet" href="style.css">
+  <!--	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>-->
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body>
+  	<header class="parameters">
+		<div class="parameters__top">
+			<h1>ГЕНЕРАТОР СЛУЧАЙНЫХ ЧИСЕЛ</h1>
+		</div>
+		<form class="parameters__button" id="parameters__generator__form" action="common.js" method="get">
+			<input form="parameters__generator__form" type="button" value="Сгенерировать">
+		</form>
+
+		<div class="parameters__result">
+			<output name="result" class="parameters__result__number">0</output>
+		</div>
+
+		<form class="parameters__quantity" id="parameters__quantity__form1" action="common.js" method="get">
+			<p>Количество генераций:<input form="parameters__quantity__form1" type="number" min="1" step="1" ></p>
+		</form>
+		<form class="parameters__quantity" id="parameters__quantity__form2" action="common.js" method="get">
+			<p>Поиск совпадений от <input form="parameters__quantity__form2" type="number" min="1" step="1" >чисел</p>
+		</form>
+	<hr>
+		<form class="parameters__field" id="parameters__input__form" action="common.js" method="get">
+			<h3 class="parameters__field__user">Ваша комбинация:</h3>
+			<div class="flexContainer">
+				<div class="button">1</div>
+				<div class="button">2</div>
+				<div class="button">3</div>
+				<div class="button">4</div>
+				<div class="button">5</div>
+				<div class="button">6</div>
+			</div>
+			<div class="flexContainer">
+				<div class="button">7</div>
+				<div class="button">8</div>
+				<div class="button">9</div>
+				<div class="button">10</div>
+				<div class="button">11</div>
+				<div class="button">12</div>
+			</div>
+			<div class="flexContainer">
+				<div class="button">13</div>
+				<div class="button">14</div>
+				<div class="button">15</div>
+				<div class="button">16</div>
+				<div class="button">17</div>
+				<div class="button">18</div>
+			</div>
+			<div class="flexContainer">
+				<div class="button">19</div>
+				<div class="button">20</div>
+				<div class="button">21</div>
+				<div class="button">22</div>
+				<div class="button">23</div>
+				<div class="button">24</div>
+			</div>
+			<div class="flexContainer">
+				<div class="button">25</div>
+				<div class="button">26</div>
+				<div class="button">27</div>
+				<div class="button">28</div>
+				<div class="button">29</div>
+				<div class="button">30</div>
+			</div>
+			<div class="flexContainer">
+				<div class="button">31</div>
+				<div class="button">32</div>
+				<div class="button">33</div>
+				<div class="button">34</div>
+				<div class="button">35</div>
+				<div class="button">36</div>
+			</div>
+			<input class="parameters__field__clear" type="button" value="ОЧИСТИТЬ ФОРМУ">
+			<input class="parameters__field__rate" type="button" value="СТАВКА">
+			<input type="checkbox" class="parameters__input__checkbox" id="cearch">
+			<label for="cearch">Сохранять результат</label>
+
+		</form>
+
+<input type="button" class="test" value="TEST">
+
+
+	</header>
+<main>
+	<ul></ul>
+</main>
+<script src="common.js"></script>
+
+</body>
+</html>
