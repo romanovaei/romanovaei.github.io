@@ -12,7 +12,7 @@ function randomInteger() {
 	        }
 		}
 
-		/*  эксперемент  */
+		/*  эксперимент  */
 
 		function randomInteger1() {
 
